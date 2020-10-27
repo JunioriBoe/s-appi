@@ -6,11 +6,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      Sää juttusysteemi
+      Sää äppi
 
       </header>
       <Weather/>
-    moi
+    
     </div>
   );
 }

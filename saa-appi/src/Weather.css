@@ -1,20 +1,47 @@
  .Weather {
+   font-family: 'Merriweather', serif;
    display: flex;
    flex-direction: column;
  }
 
+ .Weather_focused{
+   font-size: 60px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   min-height: 50vh;
+
+
+ }
+
+ .Weather_focused .Weathet_temp{
+   font-size: 290vw;
+
+ }
+
+
  .Weather_focused img{
    width: 90px;
+
+
+
+
  }
 
 .Weather_forecast {
+  justify-content: space-between;
+  justify-content: center;
   display: flex;
+
 }
 
 .Weather_box {
+  justify-content: space-between;
   display: flex;
   flex-direction: column;
-  justify-content: space around;
+  justify-content: space-around;
+  justify-content: center;
 }
 
 .Weather_box img {

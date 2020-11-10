@@ -1,7 +1,14 @@
 import React, {Component} from 'react'
+import {getForecast} from './requests'
 import './Weather.css'
 
 class Weather extends Component {
+  componentDidMount() {
+    getForecast().then(forecasts => {
+      console.log(forecasts)
+    })
+  }
+
   render() {
       return(
         <div className="Weather">

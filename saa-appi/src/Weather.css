@@ -33,6 +33,7 @@
   justify-content: space-between;
   justify-content: center;
   display: flex;
+  flex-wrap: wrap;
 
 }
 

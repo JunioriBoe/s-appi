@@ -43,8 +43,13 @@
   flex-direction: column;
   justify-content: space-around;
   justify-content: center;
+  cursor: pointer;
 }
 
 .Weather_box img {
   width: 69px;
+}
+
+.Weather_desc {
+  text-transform: capitalize;
 }
